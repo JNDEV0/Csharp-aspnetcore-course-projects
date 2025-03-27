@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DvKPpQzRI3uNQ78WzIgV+biHXeqBO4JaGUlKFKybXso=",
+  "Source": "RoutingServer",
+  "BasePath": "_content/RoutingServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

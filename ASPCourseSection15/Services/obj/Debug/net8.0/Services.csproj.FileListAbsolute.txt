@@ -1,0 +1,17 @@
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\Services.deps.json
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\Services.dll
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\Services.pdb
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\Entities.dll
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\ServiceContracts.dll
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\ServiceContracts.pdb
+E:\source\repos\ASPCourseSection15\Services\bin\Debug\net8.0\Entities.pdb
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.dll
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\refint\Services.dll
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\Services.pdb
+E:\source\repos\ASPCourseSection15\Services\obj\Debug\net8.0\ref\Services.dll

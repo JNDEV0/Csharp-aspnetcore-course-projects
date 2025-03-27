@@ -1,0 +1,94 @@
+﻿@*
+    ViewBag here is just passing an example data to the _Layout of this view,
+    since the Layout will receive this view's data to compile to final response
+*@
+@{
+    ViewBag.Title = "Home";
+
+}
+
+@*
+    the importing of Dependency Injected services should go where appropriate,
+    such as be provided by the controller injected services to the view in most cases,
+    can be added to _ViewImports.cshtml or any view that needs service content that for some reason
+    is not provided by controller can be injected directly into any Razor pages View
+*@
+@using xServiceContracts;
+@inject ICitiesService viewInjectedService;
+@{
+    //this is NOT ideal for acquiring data which is best
+    //collected at controller and passed to the view with Viewbag, but anyhow this
+    //example shows how the view can receive local scope data from dependency injected services
+    //better examples perhaps: barchart constructing Service, data graph visual service, table visual constructing service etc
+    List<string> viewInjectedCitiesFromService = viewInjectedService.GetCities();
+}
+
+@model List<string>
+
+<h1>Cities</h1>
+<p class="box">
+    in this project example, alist of cities is retrieved from a dependency injected Inversion of Control container
+    with the objective of resolving dependency issues of instantiating services directly. by instead making the HomeController and
+    the target Service class depend on an Interface contract instead, the Routing, model, and view can be developed separately from
+    the Service logic, which is instantiated on demand and quickly disposed of. the service called by the client's URL route request
+    could itself have child scoped services to retrieve database code, execute other calculations before responding to the HomeController
+    with the standarized data stored in local runtime memory and the Service instance closed. 
+
+    so to summarize, the overall goal of dependency injection is to setup a way in which the Controller's action methods call on 
+    containerized service classes instead of calling on public methods instantiated in the service code files directly
+
+    this example uses autofac Service Injection substitute for - and has commented examples in - ASP.NET standard builder.Services Dependendy Injection
+    <link href="https://autofac.readthedocs.io/en/latest/getting-started/index.html" />
+</p>
+<ul class="list">
+@foreach (string city in Model)
+{
+    <li>@city</li>
+}
+</ul>
+
+@*
+    these InstanceIds below demonstrate through the InstanceId GUID given by the app.builder.Services
+    to the containerized Service that was called whenHomeController was routed to by a request.
+    for example, given 3 parameter calls to 1 request on:
+    Transient setting all Ids will be unique, since the instantiation happens once per call, 
+    each service instantiation call is considered the instance's' transience of existence in regards to the request. 
+    so Transient would instantiate the CitiesService on each call to the named interface.
+    example service: an encryption service that should never be reused more than once
+
+    Scope will create only one instance even if called multiple times, since the Scope considers only the 1 request
+    that instantiates the constructor, since it only executes/instantiates once per request, 
+    even if its internal code calls the service multiple times within HomeController,
+    given the Scope setting there will only be one CitiesService Instance, and all 3 GUIDs will be the same
+    example service: a database connection service, a single request may need multiple database calls
+
+    Singleton will instantiate once per app/server execution, meaning it would not change
+    even if there are multiple service calls within multiple controllers or different requests
+    example service: server performance monitoring service, temporary in memory database service etc
+
+    imagine if all Services are set to Singleton! bad idea!
+    each request would keep a new CitiesService instance alive until the server shutdown.
+    this setting shows the importance of choosing the right option depending on how persistent the service needs to be
+
+*@
+<p class="box">
+    from code comments in Controllers/HomeController.cs:
+    the object of the code in this actionMethod has been to extract the GUIDs of service instances
+    containerized into Inversion of Control containers, either builder.Services or using autofac implementation
+    the result of how many GUIDs match changes depending on the ServiceLifetime setting and child scopes.
+    in Transient setting, which is the project default, the first 4 GUIDs should be the same and,
+    the 5th inside the last box will be different because it is instantiated again inside the child scope
+    
+</p>
+<div>@ViewBag.InstanceId1</div>
+<div>@ViewBag.InstanceId2</div>
+<div>@ViewBag.InstanceId3</div>
+<div class="box">@ViewBag.InstanceId4</div>
+
+@*this last GUID shows the service injected into the view directly
+    by default the controller and view run under the same scope by default
+    so the view injected service in fact points to the same service instance 
+    in memory as the controller injected service, that has passed their InstanceId through the ViewBag above
+    
+    <div>@viewInjectedService.ServiceInstanceId</div>
+*@

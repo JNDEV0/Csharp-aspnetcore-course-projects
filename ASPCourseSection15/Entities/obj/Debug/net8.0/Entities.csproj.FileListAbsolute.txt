@@ -1,0 +1,14 @@
+E:\source\repos\ASPCourseSection15\Entities\bin\Debug\net8.0\Entities.deps.json
+E:\source\repos\ASPCourseSection15\Entities\bin\Debug\net8.0\Entities.dll
+E:\source\repos\ASPCourseSection15\Entities\bin\Debug\net8.0\Entities.pdb
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.dll
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\refint\Entities.dll
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.pdb
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\ref\Entities.dll
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+E:\source\repos\ASPCourseSection15\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
+E:\source\repos\ASPCourseSection15\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache

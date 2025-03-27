@@ -1,0 +1,46 @@
+﻿[
+  {
+    "PersonId": "c03bbe45-9aeb-4d24-99e0-4743016ffce9",
+    "Name": "Borat",
+    "Email": "email1@format.com",
+    "Dob": "1989-08-28",
+    "Gender": "Male",
+    "CountryId": "14E0B461-8FB4-4E23-B853-306FAC4429BF",
+    "Address": "123 trueman rd",
+    "ReceiveNewsLetters": false,
+    "CountryName": "Mongolia"
+  },
+  {
+    "PersonId": "c3abddbd-cf50-41d2-b6c4-cc7d5a750928",
+    "Name": "Zappa",
+    "Email": "email2@format.com",
+    "Dob": "1980-04-05",
+    "Gender": "Male",
+    "CountryId": "14E0B461-8FB4-4E23-B853-306FAC4429BF",
+    "Address": "43 sea st",
+    "ReceiveNewsLetters": false,
+    "CountryName": "Mongolia"
+  },
+  {
+    "PersonId": "c6d50a47-f7e6-4482-8be0-4ddfc057fa6e",
+    "Name": "Stern",
+    "Email": "email3@format.com",
+    "Dob": "1974-08-24",
+    "Gender": "Female",
+    "CountryId": "350D4004-F8CD-42C0-9EB2-4EC6A8EC0314",
+    "Address": "99 longway ct",
+    "ReceiveNewsLetters": true,
+    "CountryName": "Uzbekistan"
+  },
+  {
+    "PersonId": "d15c6d9f-70b4-48c5-afd3-e71261f1a9be",
+    "Name": "Bean",
+    "Email": "email4@format.com",
+    "Dob": "1960-01-03",
+    "Gender": "Other",
+    "CountryId": "350D4004-F8CD-42C0-9EB2-4EC6A8EC0314",
+    "Address": "44 construct dr",
+    "ReceiveNewsLetters": true,
+    "CountryName": "Uzbekistan"
+  }
+]

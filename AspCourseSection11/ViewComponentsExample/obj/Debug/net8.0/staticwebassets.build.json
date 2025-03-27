@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "CGZ4e4qnrq8lonOVZXCLbHlin0qWRNiMBh6+68zw1HQ=",
+  "Source": "ViewComponentsExample",
+  "BasePath": "_content/ViewComponentsExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponentsExample\\wwwroot",
+      "Source": "ViewComponentsExample",
+      "ContentRoot": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponentsExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

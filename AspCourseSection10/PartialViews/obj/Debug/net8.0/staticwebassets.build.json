@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "wKE1VeP0X2wY5LCVlQKeQOcT64NqJ7E5H7TU7RYqg60=",
+  "Source": "PartialViews",
+  "BasePath": "_content/PartialViews",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PartialViews\\wwwroot",
+      "Source": "PartialViews",
+      "ContentRoot": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\wwwroot\\",
+      "BasePath": "_content/PartialViews",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\wwwroot\\StyleSheet.css",
+      "SourceId": "PartialViews",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\wwwroot\\",
+      "BasePath": "_content/PartialViews",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{800556F9-2AA4-4789-B691-8767E14F0DEC}|ModelBindingExample.csproj|e:\\source\\repos\\aspcoursesection6\\modelbindingexample\\models\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800556F9-2AA4-4789-B691-8767E14F0DEC}|ModelBindingExample.csproj|solutionrelative:models\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800556F9-2AA4-4789-B691-8767E14F0DEC}|ModelBindingExample.csproj|e:\\source\\repos\\aspcoursesection6\\modelbindingexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800556F9-2AA4-4789-B691-8767E14F0DEC}|ModelBindingExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800556F9-2AA4-4789-B691-8767E14F0DEC}|ModelBindingExample.csproj|e:\\source\\repos\\aspcoursesection6\\modelbindingexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800556F9-2AA4-4789-B691-8767E14F0DEC}|ModelBindingExample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookSearch.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\Models\\BookSearch.cs",
+              "RelativeDocumentMoniker": "Models\\BookSearch.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\Models\\BookSearch.cs",
+              "RelativeToolTip": "Models\\BookSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:53:02.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T06:29:14.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection6\\ModelBindingExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T06:24:21.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

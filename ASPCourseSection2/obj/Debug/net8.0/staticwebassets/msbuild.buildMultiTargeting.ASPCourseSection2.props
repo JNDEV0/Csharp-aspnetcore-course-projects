@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASPCourseSection2.props" />
+</Project>

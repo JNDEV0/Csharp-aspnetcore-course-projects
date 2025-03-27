@@ -1,0 +1,63 @@
+﻿@model PersonDeleteRequest
+@*
+    tag helpers work through asp.net to provide razor pages tag attributes that make the pages more reuseable and secure, the asp-controller and asp-action attributes here output the action route for the form. various tags have tag helper attribute utility, the output is dynamically determined ie: href instead of action output
+*@
+
+@{
+    ViewBag.Title = "Delete person";
+}
+@*
+    note that /persons/search is the output URL as it is the [Route] stipulated over the Index action method of HomeController
+    note the asp-controller point to the URL stipulated at the controller in the output, instead of mentioning the serverside controller and actionmethod, this automates several attributes, instead its pointing to the route*@
+<a asp-controller="Home" asp-action="Index" class="link-hover">Back to search</a>
+<h2>Delete person</h2>
+<h4 class="text-red">Confirm to delete</h4>
+
+<div class="w-50">
+    @*
+        line below could be <form action="~/persons/add-new" method="post">
+        the asp-controller and asp-action tag helpers are the controller and actionMethod name to output
+        it will output various 
+    *@
+    <form asp-controller="Home" asp-action="delete" method="post">
+
+        @*note the personId here is passed for brevity, but deletion should actually verify the fields and session authentication
+            to ensure one user/person does not simply request to delete another by editing the PersonId. not implemented in this example but worth mentioning*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label for="" class="form-label pt">PersonId</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="PersonId" class="form-input" disabled="disabled"/>
+            </div>
+        </div>
+
+        @*submit button and errors*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-red-back" type="submit">Delete</button>
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-green ml">
+                        <ul>
+                            <li class="ml">@ViewBag.Success</li>
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>

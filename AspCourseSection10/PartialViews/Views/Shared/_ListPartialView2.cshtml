@@ -1,0 +1,22 @@
+﻿@using PartialViews.Models;
+@model ProgListModel;
+
+<div class="list-container">
+    <h3>@Model.ListTitle</h3>
+    <ul class="list">
+        @{
+            if (Model is not null)
+            {
+                //Model should always be null checked, will throw exception if null
+                //in this project some partial view calls do provide model others dont,
+                //without this verification this would throw compile NullReferenceException
+                //Model.ListTitle, Model.Cities
+            }
+
+            foreach (string language in Model.ProgLangs)
+            {
+               <li>@language</li>
+            }
+        }
+    </ul>
+</div>

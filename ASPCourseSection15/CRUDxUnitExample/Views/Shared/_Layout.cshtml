@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar flex no-wrap">
+            <div class="navbar-brand">
+                @*the asp-append-version attribute will output the img src as the filepath appended by a SHA512 hash generated on the image file. this causes the server to generate a new hash value if the target file changes SERVERSIDE, so instead of simply fetching the file by name using src every time the response is sent, the client will check if the hash changed which means the local cached image is no longer the up to date target and is replaced by the new one, this way the cached version is only used if client and serverside SHA512 of the file match meaning the image file has not changed serverside*@
+                <img src="~/logo.jpg" width="80px" asp-append-version="true" />
+            </div>
+            <ul style="width:auto">
+                <li>
+                    <a href="~/persons/search">Persons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: false); @*if there are no scripts section, this section will not throw because not required*@
+</body>
+</html>
+
+@*
+    these scripts are used to enable client side model bound validation, once these scripts are loaded after the page body inside the layout above, client side validation of fields according to validator tags inside DTO class is enabled.
+
+    scripts sourced from a cdn means the browser client will send a request to the cdn for the file IF the file is NOT already in cache at the client side, the same file can be called by different websites, so a user may simply have the file locally in cache already. caching can be an issue, say the cdn server is offline, the user does not have the file on cache, asp-fallback-test is used to validate if script is present at client, if cdn failed for some reason window.jQuery will be missing for example, and will trigger asp-fallback-src, which will source the file from the wwwroot files provided to the client by the server, alongside the stylesheet.css file, image files etc. 
+    
+    the point is the script is provided to client from server as fallback if cdn does not provide it and client does not already have it, avoids having to send the script dependencies every time the view is called.
+
+    this code will be visible in the output html response since the view is being inserted @RenderBody call inside the _LayoutView, if the scripts are simply imported inside the target view that is output from RenderBody the script imports will endup above any footer elements of the page so here @section is used to designate the script imports as a section that can then be loaded separately using @RenderSection("sectionName", required: false) at the end of the body of response output, now loaded immediately before the default scripts at end of the page, such as browserlink that enables page refresh on view code updates and other scripts, this is the correct place for importing scripts, after the view content is loaded
+*@
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobstrusive.min.js"></script>
+}

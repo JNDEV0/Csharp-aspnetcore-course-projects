@@ -1,0 +1,34 @@
+﻿@*
+    instead of viewbag or viewdata, a strongly typed view can be passed a Model object, bound in the return View() call
+*@
+@using ViewComponentsExample.Models;
+@model PersonTableModel;
+<div class="box">
+
+    <h3>@Model.Title</h3>
+
+    <table class="table w-100">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @*
+                using var instead of importing target model will limit intelisense detection
+                but note that the model class DOES NOT NEED to be imported even in _ViewImports, the type data is being sent via Razor Pages ViewData/ViewBag
+                data being returned to the line that calls this view component, routed through the invokeAsync method of the ViewComponents/TableViewComponent.cs
+                which has named this file, in Views/Shared/Components/Table/AltTable.cshtml and passed the ViewData/ViewBag to this partial view,
+                which will be processed sincronously BEFORE the view is returned and injected where the component was called, to compose the view sent to client
+            *@
+            @foreach (var person in Model.Persons)
+            {
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.JobTitle</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

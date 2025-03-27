@@ -1,0 +1,85 @@
+﻿@using PartialViews.Models;
+
+<h1>Home</h1>
+<div>
+    @*
+        one way to insert a partial view's content into the target view
+        RETURNS the content to the PARENT calling view
+    *@
+    @{
+        var newViewDataObj = new ViewDataDictionary(ViewData);
+        newViewDataObj["ListTitle"] = "custom list title";
+        newViewDataObj["Cities"] = new List<string>()
+        {
+            "local1",
+            "local2",
+            "local3",
+            "local4",
+            "local5"
+        };
+    }
+
+    @*
+        a partial view can receive custom ViewData if needed, 
+        the instance above called newViewDataObj is NOT the same ViewData/ViewBag passed to this view partial view call
+        note that optional view-data property is used to designate custom ViewData
+    *@
+    <partial name="_ListPartialView" view-data="newViewDataObj"></partial>
+</div>
+<div class="box">
+    @*
+        each call of a partial view is its own instance, here the div has CSS styling only visible in this partial view instance below
+    
+        even though these ViewData/ViewBag objects are being passed to this route with different values,
+        here in the target view, these values can change before they are passed to the partial view,
+        since the partial view is called twice here and altered after the first call with the controller given ViewData,
+        the update appears on the second partialview call
+    *@
+    @{
+        ViewData["listTitle"] = "new list title";
+        ViewData["cities"] = new List<string>()
+                {
+                    "Pernambuco",
+                    "Rio de Janeiro",
+                    "Sao Paulo",
+                    "Indianapolis",
+                    "Xique Xique"
+                };
+    }
+    <partial name="_ListPartialView"></partial>
+</div>
+
+@*
+    another way to invoke partial list view RETURNS the content to the PARENT view same as partial tag
+    note that here the partial view is "strongly typed" in that it has a custom model class passed to it
+*@
+@{
+    CityListModel listModel = new CityListModel();
+    listModel.ListTitle = "countries";
+    listModel.Cities = new List<string>()
+                {
+                    "strongly",
+                    "typed",
+                    "model-bound",
+                    "partial view",
+                    "custom view data"
+                };
+
+    //the PartialAsync call to the partialview below passes listModel to the partial view
+    //which inside its scope becomes the Model object, if @model directive designates the target model to bind
+    //providing a model is not required, but can be useful for dynamic data in standard input data model.
+}
+@await Html.PartialAsync("_ListPartialView", listModel);
+
+@*
+    another way to invoke partial list view
+    STREAMS the content to the browser, this means
+    the content of the partial view is returned directly to the browser
+    instead of being integrated into a larger view, supposed to improve performance
+    by returning the HTML of the partial view to browser,
+    however the response cannot be accessed as IHTML at client side
+    
+@{
+    await Html.RenderPartialAsync("_ListPartialView");
+}
+*@

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F99CBC-FDB3-405D-900B-725493CE7BF0}|ControllerExample.csproj|e:\\source\\repos\\aspcoursesection6\\controllerexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F99CBC-FDB3-405D-900B-725493CE7BF0}|ControllerExample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F99CBC-FDB3-405D-900B-725493CE7BF0}|ControllerExample.csproj|e:\\source\\repos\\aspcoursesection6\\controllerexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F99CBC-FDB3-405D-900B-725493CE7BF0}|ControllerExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F99CBC-FDB3-405D-900B-725493CE7BF0}|ControllerExample.csproj|e:\\source\\repos\\aspcoursesection6\\controllerexample\\models\\aboutdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F99CBC-FDB3-405D-900B-725493CE7BF0}|ControllerExample.csproj|solutionrelative:models\\aboutdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutData.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\Models\\AboutData.cs",
+              "RelativeDocumentMoniker": "Models\\AboutData.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\Models\\AboutData.cs",
+              "RelativeToolTip": "Models\\AboutData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:33:33.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:17:13.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection6\\ControllerExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T05:25:25.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\wwwroot\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\wwwroot\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\wwwroot\\logo.jpg",
+      "PackagePath": "staticwebassets\\logo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CRUDxUnitExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CRUDxUnitExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CRUDxUnitExample.props",
+      "PackagePath": "build\\CRUDxUnitExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CRUDxUnitExample.props",
+      "PackagePath": "buildMultiTargeting\\CRUDxUnitExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CRUDxUnitExample.props",
+      "PackagePath": "buildTransitive\\CRUDxUnitExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

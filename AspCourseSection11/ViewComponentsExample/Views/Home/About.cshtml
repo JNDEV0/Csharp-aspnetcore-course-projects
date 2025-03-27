@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<h1>About</h1>
+<p>lorem ipsum</p>
+
+@*
+    note that because the TableViewComponent is actually returning a named AltTable.cshtml,
+    the content of the component invoke below will NOT be Default.chtml in the Views/Shared/Component/Table folder,
+    unless the ViewComponents/TableViewComponent.cs return view is the default option.
+    explaining understand the connection between these files
+*@
+@await Component.InvokeAsync("Table"); 
+
+@*the vc:table component below, which will call view component through TagHelpers imported at _ViewImports*@
+<vc:table> </vc:table>

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "6V4cvPosahR15yf8VMTe8zC5UgFP3e/pPu04DnZLqdo=",
+  "Source": "HttpClientExample",
+  "BasePath": "_content/HttpClientExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HttpClientExample\\wwwroot",
+      "Source": "HttpClientExample",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection14\\HttpClientExample\\wwwroot\\",
+      "BasePath": "_content/HttpClientExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\source\\repos\\ASPCourseSection14\\HttpClientExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "HttpClientExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection14\\HttpClientExample\\wwwroot\\",
+      "BasePath": "_content/HttpClientExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

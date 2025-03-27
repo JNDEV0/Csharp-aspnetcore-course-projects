@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\home\\languages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\home\\languages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\shared\\_listpartialview2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\shared\\_listpartialview2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\models\\proglistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:models\\proglistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\views\\shared\\_listpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:views\\shared\\_listpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\models\\citylistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:models\\citylistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|e:\\source\\repos\\aspcoursesection10\\partialviews\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EDD15-988E-4467-97B2-DC64572682D8}|PartialViews.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Languages.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Home\\Languages.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Languages.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Home\\Languages.cshtml",
+              "RelativeToolTip": "Views\\Home\\Languages.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T23:17:42.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ListPartialView2.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Shared\\_ListPartialView2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ListPartialView2.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Shared\\_ListPartialView2.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ListPartialView2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T21:42:27.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProgListModel.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Models\\ProgListModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProgListModel.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Models\\ProgListModel.cs",
+              "RelativeToolTip": "Models\\ProgListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T21:07:05.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CityListModel.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Models\\CityListModel.cs",
+              "RelativeDocumentMoniker": "Models\\CityListModel.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Models\\CityListModel.cs",
+              "RelativeToolTip": "Models\\CityListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:47:04.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ListPartialView.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Shared\\_ListPartialView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ListPartialView.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Shared\\_ListPartialView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ListPartialView.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T13:19:56.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:22:32.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:22:20.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:21:31.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:21:23.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\wwwroot\\StyleSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\StyleSheet.css",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\wwwroot\\StyleSheet.css",
+              "RelativeToolTip": "wwwroot\\StyleSheet.css",
+              "ViewState": "AQIAAFgBAAAAAAAAAAAmwHMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-28T12:19:45.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:01:52.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:58:21.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection10\\PartialViews\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:57:36.192Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

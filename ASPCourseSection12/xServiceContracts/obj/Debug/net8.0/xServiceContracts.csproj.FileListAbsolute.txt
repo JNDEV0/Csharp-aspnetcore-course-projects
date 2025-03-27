@@ -1,0 +1,11 @@
+E:\source\repos\ASPCourseSection12\xServiceContracts\bin\Debug\net8.0\xServiceContracts.deps.json
+E:\source\repos\ASPCourseSection12\xServiceContracts\bin\Debug\net8.0\xServiceContracts.dll
+E:\source\repos\ASPCourseSection12\xServiceContracts\bin\Debug\net8.0\xServiceContracts.pdb
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\xServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\xServiceContracts.AssemblyInfoInputs.cache
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\xServiceContracts.AssemblyInfo.cs
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\xServiceContracts.csproj.CoreCompileInputs.cache
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\xServiceContracts.dll
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\refint\xServiceContracts.dll
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\xServiceContracts.pdb
+E:\source\repos\ASPCourseSection12\xServiceContracts\obj\Debug\net8.0\ref\xServiceContracts.dll

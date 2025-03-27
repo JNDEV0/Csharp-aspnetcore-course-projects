@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1HmWlvHxfgdt559R1qnY7jXUaKZpaqGEdrAMDbBC1FY=",
+  "Source": "WebRootStaticFiles",
+  "BasePath": "_content/WebRootStaticFiles",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

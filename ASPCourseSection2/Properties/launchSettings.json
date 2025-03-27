@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": { //IIS is the simulated reverse proxy server, not used in this course but important to know about reverse proxy servers like IIS and nginx
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:12063", 
+      "sslPort": 44366
+    }
+  },
+  "profiles": {
+    "Kestrel": { //the name of the project, displays on run f5 button in IDE
+      "commandName": "Project", //Project opens Kestrel, IIS for IIS express
+      "dotnetRunMessages": true, //dotnet commands on terminal show on kestresl application server
+      "launchBrowser": true, //will open browser on run
+      "applicationUrl": "http://localhost:5229", //url defines where/what port  the application will listen to, any port 1024-65535
+      "environmentVariables": { //api keys, redirection urls, server names, global variables common throughout the code, can change depending on environment
+        "ASPNETCORE_ENVIRONMENT": "Development" //production, staging and development each stage tends to have its own set of environment variables
+      }
+    },
+    "IISExpress": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

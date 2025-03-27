@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF4849-D9E7-4A2D-8915-51E66F4050CD}|CRUDxUnitExample.csproj|e:\\source\\repos\\aspcoursesection15\\crudxunitexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00AF4849-D9E7-4A2D-8915-51E66F4050CD}|CRUDxUnitExample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF4849-D9E7-4A2D-8915-51E66F4050CD}|CRUDxUnitExample.csproj|e:\\source\\repos\\aspcoursesection15\\crudxunitexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00AF4849-D9E7-4A2D-8915-51E66F4050CD}|CRUDxUnitExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E377E589-F33E-465D-80D4-D865DD6811E7}|..\\Entities\\Entities.csproj|e:\\source\\repos\\aspcoursesection15\\entities\\personsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512D3D7-E3B9-410B-8207-6C39DAB6A559}|..\\CRUDTests\\CRUDTests.csproj|e:\\source\\repos\\aspcoursesection15\\crudtests\\countriesservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2B217F-3229-4376-A91F-450B056E1FBB}|..\\Services\\Services.csproj|e:\\source\\repos\\aspcoursesection15\\services\\utils\\mockdatautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512D3D7-E3B9-410B-8207-6C39DAB6A559}|..\\CRUDTests\\CRUDTests.csproj|e:\\source\\repos\\aspcoursesection15\\crudtests\\personsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2B217F-3229-4376-A91F-450B056E1FBB}|..\\Services\\Services.csproj|e:\\source\\repos\\aspcoursesection15\\services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2143542-DBEB-46DB-99FE-0287FD208B30}|..\\ServiceContracts\\ServiceContracts.csproj|e:\\source\\repos\\aspcoursesection15\\servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2143542-DBEB-46DB-99FE-0287FD208B30}|..\\ServiceContracts\\ServiceContracts.csproj|e:\\source\\repos\\aspcoursesection15\\servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2B217F-3229-4376-A91F-450B056E1FBB}|..\\Services\\Services.csproj|e:\\source\\repos\\aspcoursesection15\\services\\personsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2143542-DBEB-46DB-99FE-0287FD208B30}|..\\ServiceContracts\\ServiceContracts.csproj|e:\\source\\repos\\aspcoursesection15\\servicecontracts\\dto\\personresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E377E589-F33E-465D-80D4-D865DD6811E7}|..\\Entities\\Entities.csproj|e:\\source\\repos\\aspcoursesection15\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E377E589-F33E-465D-80D4-D865DD6811E7}|..\\Entities\\Entities.csproj|e:\\source\\repos\\aspcoursesection15\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 278,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:20:19.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MockDataUtil.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\Services\\Utils\\MockDataUtil.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Utils\\MockDataUtil.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\Services\\Utils\\MockDataUtil.cs",
+              "RelativeToolTip": "..\\Services\\Utils\\MockDataUtil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:59:52.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonsServiceTests.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\CRUDTests\\PersonsServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\CRUDTests\\PersonsServiceTests.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\CRUDTests\\PersonsServiceTests.cs",
+              "RelativeToolTip": "..\\CRUDTests\\PersonsServiceTests.cs",
+              "ViewState": "AQIAAKEBAAAAAAAAAAAvwLABAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:32:10.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CountriesServiceTests.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\CRUDTests\\CountriesServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\CRUDTests\\CountriesServiceTests.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\CRUDTests\\CountriesServiceTests.cs",
+              "RelativeToolTip": "..\\CRUDTests\\CountriesServiceTests.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAEwG8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T01:14:35.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountriesService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\Services\\CountriesService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\CountriesService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\Services\\CountriesService.cs",
+              "RelativeToolTip": "..\\Services\\CountriesService.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAwGQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T00:51:16.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICountriesService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\ServiceContracts\\ICountriesService.cs",
+              "RelativeDocumentMoniker": "..\\ServiceContracts\\ICountriesService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\ServiceContracts\\ICountriesService.cs",
+              "RelativeToolTip": "..\\ServiceContracts\\ICountriesService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T00:50:41.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPersonsService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\ServiceContracts\\IPersonsService.cs",
+              "RelativeDocumentMoniker": "..\\ServiceContracts\\IPersonsService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\ServiceContracts\\IPersonsService.cs",
+              "RelativeToolTip": "..\\ServiceContracts\\IPersonsService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T23:19:02.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersonResponse.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\ServiceContracts\\DTO\\PersonResponse.cs",
+              "RelativeDocumentMoniker": "..\\ServiceContracts\\DTO\\PersonResponse.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\ServiceContracts\\DTO\\PersonResponse.cs",
+              "RelativeToolTip": "..\\ServiceContracts\\DTO\\PersonResponse.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHkAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T19:58:39.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Country.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Country.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\Entities\\Country.cs",
+              "RelativeToolTip": "..\\Entities\\Country.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABEAAABRAgAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T19:30:36.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Person.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Person.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\Entities\\Person.cs",
+              "RelativeToolTip": "..\\Entities\\Person.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAADZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T00:28:51.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonsService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\Services\\PersonsService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\PersonsService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\Services\\PersonsService.cs",
+              "RelativeToolTip": "..\\Services\\PersonsService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:41:01.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonsDbContext.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\Entities\\PersonsDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\PersonsDbContext.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\Entities\\PersonsDbContext.cs",
+              "RelativeToolTip": "..\\Entities\\PersonsDbContext.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T16:12:57.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection15\\CRUDxUnitExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T06:28:04.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

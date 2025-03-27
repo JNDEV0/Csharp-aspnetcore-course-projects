@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection14\\HttpClientExample\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HttpClientExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HttpClientExample.props",
+      "PackagePath": "build\\HttpClientExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HttpClientExample.props",
+      "PackagePath": "buildMultiTargeting\\HttpClientExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HttpClientExample.props",
+      "PackagePath": "buildTransitive\\HttpClientExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

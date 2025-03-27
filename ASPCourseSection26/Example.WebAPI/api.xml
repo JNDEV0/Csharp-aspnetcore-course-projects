@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CitiesManager.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Example.WebAPI.Controllers.v1.CitiesController.GetCities">
+            <summary>
+            GET all Cities from Db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Example.WebAPI.Controllers.v1.CitiesController.GetCity(System.Guid)">
+            <summary>
+            Receives HttpGet request, returns City object if found in Database, or 400 response
+            </summary>
+            <param name="customParameterName">GUID/UUID of City object to retrieve</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

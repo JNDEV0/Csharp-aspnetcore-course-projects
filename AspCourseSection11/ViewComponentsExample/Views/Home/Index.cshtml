@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h1>Home</h1>
+<p>lorem ipsum</p>
+
+<button type="button" class="button button-blue-back" id="load">fetch ViewComponent async table</button>
+<div id="response"></div>
+<script>
+    document.querySelector("#load").addEventListener("click", async function() {
+        var response = await fetch("about/table");
+        var responseBody = await response.text();
+        document.querySelector("#response").innerHTML = responseBody;
+    });
+</script>
+
+@*
+    a ViewComponent is a syncronous partial view separated into the organization structure in this example project
+    similar to how React components work, they can be called and processed into the view that is returned to the client
+    a view component will execute BEFORE and be COMPILED INTO the final view, 
+    UNLIKE the async partial view, which will be instantly fetched and 
+    return its raw data to the client immediately without waiting for the final View response
+
+    so a view component may be better than partial view for fetching data from a database, run input calculations, etc.
+    and a partial view may be better to update a page section without reloading the page, like a price chart, a live online player count etc.
+
+    the component's processed content will be invoked asyncronously and inserted below
+    into the index view's result response. note that there is no file named Table in the project, 
+    instead its named TableViewComponent, and the actual component content is 
+    inside Views/Shared/Components/Table/Default.cshtml by default
+    unless another file name is stipulated inside TableViewComponent.cs return View()
+
+    in the response sent back to client, the line below is replaced with
+    the content of Default.cshtml result, in this example:
+    <h1>View component invoked</h1>
+*@
+@await Component.InvokeAsync("Table"); 
+
+@*the vc:table component below, which will call view component through TagHelpers imported at _ViewImports*@
+<vc:table> </vc:table>
+
+
+@*
+    the vc:table component below, which will call view component through TagHelpers imported at _ViewImports
+    is the second table variant, named Table2ViewComponent.cs that uses the @Model property instead of ViewData or ViewBag
+    notice that in none of these calls, model, viewdata etc is NOT passed from the calling method,
+    instead it is passed from the named ViewComponent to its partial component data
+*@
+<vc:table2> </vc:table2>

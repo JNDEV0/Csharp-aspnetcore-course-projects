@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ASPCourseSection3Assignment.props" />
+</Project>

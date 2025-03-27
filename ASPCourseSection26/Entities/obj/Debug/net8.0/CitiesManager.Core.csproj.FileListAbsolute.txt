@@ -1,0 +1,12 @@
+E:\source\repos\ASPCourseSection26\Entities\bin\Debug\net8.0\CitiesManager.Core.deps.json
+E:\source\repos\ASPCourseSection26\Entities\bin\Debug\net8.0\CitiesManager.Core.dll
+E:\source\repos\ASPCourseSection26\Entities\bin\Debug\net8.0\CitiesManager.Core.pdb
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.csproj.AssemblyReference.cache
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.AssemblyInfoInputs.cache
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.AssemblyInfo.cs
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.csproj.CoreCompileInputs.cache
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.dll
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\refint\CitiesManager.Core.dll
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\CitiesManager.Core.pdb
+E:\source\repos\ASPCourseSection26\Entities\obj\Debug\net8.0\ref\CitiesManager.Core.dll

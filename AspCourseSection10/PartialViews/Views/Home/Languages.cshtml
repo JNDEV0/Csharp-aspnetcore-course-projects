@@ -1,0 +1,24 @@
+﻿<h1>Programming Languages</h1>
+
+<p>
+    this page is to used to demonstrate the partial view, where the list of programming languages below
+    are requested to the server and loaded asyncronously on the client browser without updating the entire view. 
+</p>
+<p>
+    click the button
+</p>
+
+<button class="button button-blue-back" type="button" id="button-load">Load Programming Languages</button>
+<div class="box programming-languages-content"></div>
+
+<script>
+    document.querySelector("#button-load").addEventListener("click", async function () {
+        //important to note that languages/get is not a route in the navbar of the page
+        //it is only called internally from this javascript code, that is listening for a
+        //click event on the button, which then inserts the response raw HTML into the page
+        //without reloading the entire page
+        var response = await fetch("languages/get");
+        var responseBody = await response.text();
+        document.querySelector(".programming-languages-content").innerHTML = responseBody;
+    });
+</script>

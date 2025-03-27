@@ -1,0 +1,142 @@
+﻿@model List<PersonResponse>;
+@*
+    the request arrives to the app, gets routed to controller, that retrieved the data via injected services
+    and then supplied it to the view. the view will orient the data using HTML,CSS and C# in Razor Pages to build
+    what the user will see as the output of the url request from browser
+*@
+@{
+    ViewBag.Title = "Persons";
+}
+
+<a href="~/persons/add-new" class="link-hover">Add new person</a>
+<h1>Persons</h1>
+
+<form action="~/persons/search" method="get"> 
+@*
+    the form essentially creates a HTML GET request to the given action route, thus the method in the controller is called actionMethod
+    as it will be called when the route receives the request, method is GET here could ne PUT DELETE POST etc
+    for relevant form/request type to update delete etc, routed to corrent actioMethod route
+
+    the components of the form with "name" attributes are the Keys in xwwwformurlenconded format
+    and the values entered by the user at the UI are the values, 
+   
+    NORMALLY there would not be a callback to the same actionMethod the way we implement in this example
+    to not rely on viewbag to persist relevant data, instead there would can be a route that receives and validates request model data from URL route parsing
+    see previous projects
+
+    note the name attribute searchBy results in the request url having query parameters added to it, for example:
+    after website.com/persons/search?searchBy=PersonName&searchString=PartialNameToSearch
+    the query KVPs are received by the actionMethod as parameters on form submission
+*@
+
+<div class="box flex">
+    <div class="flex-1">
+        <select class="form-input" name="searchBy" > 
+            @foreach (var property in ViewBag.SearchFields) 
+            {
+                    //persisting current search option in search form with selected attribute
+                    if (property.Key == ViewBag.CurrentSearchBy)
+                    {
+                        <option value="@property.Key" selected="selected">@property.Value</option>
+                    } 
+                    else
+                    {
+                        //property as in the intended Person or PersonResponse field to search by, name, dob etc
+                        <option value="@property.Key">@property.Value</option>
+                    }
+            }
+        </select>
+    </div>
+
+    <div class="flex-1">
+        @*the value assigned as default CurrentSearchString below is from home controller that receives it during previous, or first, request
+        so this will persist the value from first request and updated on the request response*@
+        <input type="search" id="Search" class="form-input" placeholder="Search" name="searchString" value="@ViewBag.CurrentSearchString"/>
+    </div>
+
+    <div class="flex-1">
+        <button class="button button-blue-back" type="submit">Search</button>
+        <a href="~/persons/search" class="link-hover">Clear all</a>
+    </div>
+</div>
+<table class="table w-100 mt">
+    <thead>
+        <tr>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.Name) },
+                    { "DisplayName", "Name" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.Email) },
+                    { "DisplayName", "Email" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.Dob) },
+                    { "DisplayName", "Date of Birth" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.Gender) },
+                    { "DisplayName", "Gender" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.CountryName) },
+                    { "DisplayName", "Country" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.Address) },
+                    { "DisplayName", "Address" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", nameof(PersonResponse.ReceiveNewsLetters) },
+                    { "DisplayName", "Newsletter" },
+                })
+            </th>
+            <th>
+                    @await Html.PartialAsync("~/Views/Shared/Navigation/_GridHeaderPartial.cshtml", new ViewDataDictionary(ViewData)
+                {
+                    { "ColumnName", "Options" },
+                    { "DisplayName", "Options" },
+                })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (PersonResponse person in Model)
+        {
+            <tr>
+                <td>@person.Name</td>
+                <td>@person.Email</td>
+                <td>@person.Dob?.ToString("dd MM yyyy")</td> @*note the ? modifier will result in either null or the parsed Dob*@
+                <td>@person.Gender</td>
+                <td>@person.CountryName</td> @*countryname is passed from controller via viewbag, since PersonResponse does not have a CountryName attribute*@
+                <td>@person.Address</td>
+                <td>@person.ReceiveNewsLetters</td>
+                <td style="width:10%">
+                    <a asp-controller="Home" asp-action="EditPerson" asp-route-personId="@person.PersonId">Edit</a>
+                    <a asp-controller="Home" asp-action="DeletePerson" asp-route-personId="@person.PersonId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</form>

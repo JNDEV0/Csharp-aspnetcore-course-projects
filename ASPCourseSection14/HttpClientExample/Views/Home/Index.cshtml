@@ -1,0 +1,40 @@
+﻿@model HttpClientExample.Models.ViewModels.StockQuoteData;
+
+@{
+    ViewBag.Title = "Home";
+}
+
+@*
+    this example view is simply outputting the data retrieved from the external API via HttpClient
+    these values were parsed from the JSON response into a data model and passed to this view
+*@
+
+<div class="box trading-panel">
+    <div class="flex trading-panel-flex">
+        <div id="stock-price-panel">
+            <div class="stock">
+                <h1 class="stock-title">@Model.StockSymbol</h1>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Current:</td>
+                            <th><small>$</small><span class="price">@Model.CurrentPrice</span></th>
+                        </tr>
+                        <tr>
+                            <td>High:</td>
+                            <th><small>$</small><span class="price">@Model.HighestPrice</span></th>
+                        </tr>
+                        <tr>
+                            <td>Low:</td>
+                            <th><small>$</small><span class="price">@Model.LowestPrice</span></th>
+                        </tr>
+                        <tr>
+                            <td>Open:</td>
+                            <th><small>$</small><span class="price">@Model.OpenPrice</span></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

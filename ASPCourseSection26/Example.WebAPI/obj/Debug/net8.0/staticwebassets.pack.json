@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CitiesManager.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CitiesManager.WebAPI.props",
+      "PackagePath": "build\\CitiesManager.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CitiesManager.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\CitiesManager.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CitiesManager.WebAPI.props",
+      "PackagePath": "buildTransitive\\CitiesManager.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "RU4mhQzGFqUsrhZNyyEmP6//PpwtXtz2uXMLtqcTqLg=",
+  "Source": "CitiesManager.WebAPI",
+  "BasePath": "_content/CitiesManager.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CitiesManager.WebAPI\\wwwroot",
+      "Source": "CitiesManager.WebAPI",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CitiesManager.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\favicon.ico",
+      "SourceId": "CitiesManager.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CitiesManager.WebAPI",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\StyleSheet.css",
+      "SourceId": "CitiesManager.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CitiesManager.WebAPI",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

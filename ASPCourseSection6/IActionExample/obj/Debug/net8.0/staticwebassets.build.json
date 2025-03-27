@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "UzylSHXsNMjcX8NJyeNPL6bkvS7T0aYzZ+MpISAF9G8=",
+  "Source": "IActionExample",
+  "BasePath": "_content/IActionExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IActionExample\\wwwroot",
+      "Source": "IActionExample",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection6\\IActionExample\\wwwroot\\",
+      "BasePath": "_content/IActionExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\source\\repos\\ASPCourseSection6\\IActionExample\\wwwroot\\sample.pdf",
+      "SourceId": "IActionExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection6\\IActionExample\\wwwroot\\",
+      "BasePath": "_content/IActionExample",
+      "RelativePath": "sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.pdf"
+    }
+  ]
+}

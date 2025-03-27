@@ -1,0 +1,61 @@
+﻿@inject IWebHostEnvironment HostEnvironment
+@{
+    ViewBag.Title = "Home";
+}
+
+<h1>Home</h1>
+<div class="box">
+    <p>Current Environment passed by ViewBag: @ViewBag.EnvironmentName</p>
+    <p>Direct Environment Check: @Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")</p>
+    <p>Is Development: @HostEnvironment.IsDevelopment()</p>
+    <p>Environment Name: @HostEnvironment.EnvironmentName</p>
+</div>
+<p>
+    html content or other Razor views C# code inserts
+    in this case would only include content inside this environment tag 
+    if named in include exclude attribute of the environment tag
+    similar to an if statement
+</p>
+<br />
+
+<p>using tag helpers attempt, doesnt work?</p>
+@*
+    including or excluding environments is optional, 
+    I havent figured out why these environment tags are not working correctly, 
+    use the Razorpages injected C#
+*@
+<environment include="Development">
+    <button class="button button-green-back">Development or customNamed Environment</button>
+</environment>
+
+<environment include="Staging"> 
+    <button class="button button-blue-back">Staging Environment only</button>
+</environment>
+
+<p>using Razorpages C# logic attempt works</p>
+@if (HostEnvironment.IsDevelopment())
+{
+    <div>This should only show in Development</div>
+    <button class="button button-green-back">Development Environment</button>
+} else
+{
+    <div>This should only show in Staging, Release, customEnvironmentName etc</div>
+    <button class="button button-blue-back">Not Development Environment</button>
+}
+<p>the content of the boxes below will change depending on 
+    what environment the app is set to in launchSettings.json
+    if "Development" is set, the content will be retrieved from appsettings.Development.json
+    if not, will be from appsettings.json, since the more specific existing .json file
+    overrides the less specific default
+</p>
+<div class="box">
+    <p>directly instantiated options model in HomeController.cs</p>
+    <p>@ViewBag.ClientId</p>
+    <p>@ViewBag.ClientSecretKey</p>
+</div>
+
+<div class="box">
+    <p>from dependency injected options from builder.Services.Configure() passed to HomeController.cs</p>
+    <p>@ViewBag.ClientId2</p>
+    <p>@ViewBag.ClientSecretKey2</p>
+</div>

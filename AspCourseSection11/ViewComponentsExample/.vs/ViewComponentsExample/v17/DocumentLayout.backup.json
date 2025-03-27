@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\viewcomponents\\table3viewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:viewcomponents\\table3viewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\shared\\components\\table3\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\shared\\components\\table3\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\viewcomponents\\table2viewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:viewcomponents\\table2viewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\viewcomponents\\tableviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:viewcomponents\\tableviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\shared\\components\\table2\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\shared\\components\\table2\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\shared\\components\\table\\alttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\shared\\components\\table\\alttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\models\\persontablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:models\\persontablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|e:\\source\\repos\\aspcoursesection11\\viewcomponentsexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0A4E8E-491A-4EAD-98A6-8C7DC7905579}|ViewComponentsExample.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\Components\\Table3\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Table3\\Default.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\Components\\Table3\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Table3\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T08:55:39.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Table3ViewComponent.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\ViewComponents\\Table3ViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Table3ViewComponent.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\ViewComponents\\Table3ViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\Table3ViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:53:48.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Table2ViewComponent.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\ViewComponents\\Table2ViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Table2ViewComponent.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\ViewComponents\\Table2ViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\Table2ViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:55:06.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersonTableModel.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Models\\PersonTableModel.cs",
+              "RelativeDocumentMoniker": "Models\\PersonTableModel.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Models\\PersonTableModel.cs",
+              "RelativeToolTip": "Models\\PersonTableModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:07:53.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T03:53:27.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AltTable.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\Components\\Table\\AltTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Table\\AltTable.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\Components\\Table\\AltTable.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Table\\AltTable.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwCEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T03:39:53.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\Components\\Table2\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Table2\\Default.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\Components\\Table2\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Table2\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBIAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T03:03:11.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableViewComponent.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\ViewComponents\\TableViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\TableViewComponent.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\ViewComponents\\TableViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\TableViewComponent.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:44:15.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T02:17:45.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T02:11:17.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T02:10:15.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:38:30.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:37:31.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\AspCourseSection11\\ViewComponentsExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:35:44.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

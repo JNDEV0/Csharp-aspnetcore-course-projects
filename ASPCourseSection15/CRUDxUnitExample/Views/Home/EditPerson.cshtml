@@ -1,0 +1,164 @@
+﻿@model PersonUpdateRequest
+@*
+    tag helpers work through asp.net to provide razor pages tag attributes that make the pages more reuseable and secure, the asp-controller and asp-action attributes here output the action route for the form. various tags have tag helper attribute utility, the output is dynamically determined ie: href instead of action output
+
+    note that the model is PersonUpdateRequest DTO object, that will have all the populated field values from retrieved Person
+*@
+
+@{
+    ViewBag.Title = "Edit person";
+
+}
+@*
+    note that /persons/search is the output URL as it is the [Route] stipulated over the Index action method of HomeController
+    note the asp-controller point to the URL stipulated at the controller in the output, instead of mentioning the serverside controller and actionmethod, this automates several attributes, instead its pointing to the route*@
+<a asp-controller="Home" asp-action="Index" class="link-hover">Back to search</a>
+<h2>Edit person details</h2>
+
+<div class="w-50">
+    @*
+        line below could be <form action="~/persons/add-new" method="post">
+        the asp-controller and asp-action tag helpers are the controller and actionMethod name to output
+        it will output various
+    *@
+    <form asp-controller="Home" asp-action="edit" method="post">
+        @*Person Name note that asp-for also works with the label tab, pointing to the corresponding model property input field*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Name" class="form-label pt">@nameof(Model.Name)</label>
+            </div>
+            <div class="flex-1">
+                @*
+        <input type="text" id="PersonName" name="Name" class="form-input" />
+        validation tags on data transfer objects are considered and added to the attributes of output, for example Name property
+        with [Required] tag in DTO target model will result in data-val-required attribute in response html response
+        these extra validation attributes on the client side can be used for clientside validation
+        default asp-for attribute will generate the id and name of the tag, as well as value, if the razor view is model bound and a model is passed to it, the value of the tag will be the value of corresponding model object, for example to populate existing values to edit
+                    if this is the add new view, no model object is given values will be null
+                    if the view is edit, an existing person is given so values will be the pre-existing fetched details
+
+                    asp-for by default generates type="test" name="ModelPropertyName" id="ModelPropertyName" value="ModelValue" data-val-rule="ErrorMessage"
+                *@
+                <input asp-for="Name" class="form-input" />
+                <span asp-validation-for="Name" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Email*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Email" class="form-label pt">Email</label>
+            </div>
+            <div class="flex-1">
+                @*<input asp-for="Email" type="email" class="form-input" />
+        note that the type assigned by asp-for by default is text, so either overide directly on the tag or via DTO validation tags
+                            asp-for by default sets type to text, other types need to be manually overriden such as email type for input tag, this overide can take place directly in the tag or by designating a [DataType] validation tag to the DTO properties for example [DataType(DataType.EmailAddress)]
+        DTO data validation property tags will determine the output of the asp-for attributes on the tag output to client, for example if property is [Required] that will generate required="failedToProvideErrorMessage" which is useful for client side validation*@
+                <input asp-for="Email" class="form-input" />
+                <span asp-validation-for="Email" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Date of Birth been set to DateTime instead of Date just to showcase the built in utility component provided in client browser*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Dob" class="form-label pt">Dob</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="Dob" class="form-input" />
+                <span asp-validation-for="Dob" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Gender asp-for will automatically output selected attribute to the correct preset value of Gender*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Gender" class="form-label pt">Gender</label>
+            </div>
+            <div class="flex-1">
+                @{
+                    string[] genderNames = (string[])Enum.GetNames(typeof(GenderOptions));
+                    if (genderNames is not null)
+                    {
+                        foreach (string genderName in genderNames)
+                        {
+                            <input type="radio" asp-for="Gender" value="@genderName" /> <label for="@genderName" class="ml">@genderName</label>
+                        }
+                    }
+                }
+                <span asp-validation-for="Gender" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Country*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="CountryId" class="form-label pt">Country</label>
+            </div>
+            <div class="flex-1">
+                <select asp-for="CountryId" class="form-input">
+                    <option value="" selected="selected">Select Country</option>
+                    @*iterating the countries list to populate the options, note that these are coming from the mockdata*@
+                    @foreach (CountryResponse country in ViewBag.Countries)
+                    {
+                        <option value="@country.CountryId">@country.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="CountryId" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Address*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Address" class="form-label pt">Address</label>
+            </div>
+            <div class="flex-1">
+                <textarea asp-for="Address" class="form-input" placeholder="Enter Address"></textarea>
+            </div>
+            <span asp-validation-for="Address" class="text-red"></span>
+        </div>
+
+        @*Newsletter note that bool type ReceiveNewsletter takes on type="checkbox" by default*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="ReceiveNewsLetters" class="form-label pt">Newsletter</label>
+            </div>
+            <div class="flex-1">
+                <input type="checkbox" asp-for="ReceiveNewsLetters" class="form-input" />
+            </div>
+            <span asp-validation-for="ReceiveNewsLetters" class="text-red"></span>
+        </div>
+
+        @*submit button and errors*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-green-back" type="submit">Edit</button>
+                @*<div asp-validation-summary="All" class="text-red"></div>
+        would display a bulleted list of all client side validation errors
+        client side validation is dynamically assessed by asp.net using the asp-controller, asp-action, asp-for tag helpers*@
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-green ml">
+                        <ul>
+                            <li class="ml">@ViewBag.Success</li>
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "8z2j80spaYu+4QEsHGRc8vuIcQFfpSu3yVEzg3nOhN4=",
+  "Source": "DependencyInjectionExample",
+  "BasePath": "_content/DependencyInjectionExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DependencyInjectionExample\\wwwroot",
+      "Source": "DependencyInjectionExample",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\wwwroot\\",
+      "BasePath": "_content/DependencyInjectionExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "DependencyInjectionExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\wwwroot\\",
+      "BasePath": "_content/DependencyInjectionExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

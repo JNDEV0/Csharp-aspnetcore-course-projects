@@ -1,0 +1,14 @@
+E:\source\repos\ASPCourseSection26\ClientApp\bin\Debug\net8.0\ClientApp.exe
+E:\source\repos\ASPCourseSection26\ClientApp\bin\Debug\net8.0\ClientApp.deps.json
+E:\source\repos\ASPCourseSection26\ClientApp\bin\Debug\net8.0\ClientApp.runtimeconfig.json
+E:\source\repos\ASPCourseSection26\ClientApp\bin\Debug\net8.0\ClientApp.dll
+E:\source\repos\ASPCourseSection26\ClientApp\bin\Debug\net8.0\ClientApp.pdb
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.AssemblyInfoInputs.cache
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.AssemblyInfo.cs
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.csproj.CoreCompileInputs.cache
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.dll
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\refint\ClientApp.dll
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.pdb
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ClientApp.genruntimeconfig.cache
+E:\source\repos\ASPCourseSection26\ClientApp\obj\Debug\net8.0\ref\ClientApp.dll

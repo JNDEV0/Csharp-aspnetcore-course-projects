@@ -1,0 +1,25 @@
+﻿@*
+    Note that both viewbag data and ViewData which is passed by the partialView async call in Index.cshtml are being used to transport
+    relevant data to the partial view, this is a reusable component in the sense that all the properties of Person that will
+    populate the column titles wil determine the HMTL element that is output to the finished response view
+    
+    data transfered in via viewbad or viewdata can be accessed interchangeably, ViewData[key] and ViewBag.properties
+*@
+@if (@ViewBag.CurrentSortBy == @ViewBag.ColumnName && @ViewBag.CurrentSortOrder == SortOrderEnum.Descending)
+{
+    <a href="/persons/search?searchBy=@(ViewBag.CurrentSearchBy)&searchString=@(ViewBag.CurrentSearchString)&sortOrder=@(SortOrderEnum.Ascending)&sortBy=@(ViewBag.ColumnName)">
+        @(ViewBag.DisplayName)<i class="fa-solid fa-sort-up"></i>
+    </a>
+} 
+else if (@ViewBag.CurrentSortBy == @ViewBag.ColumnName && @ViewBag.CurrentSortOrder == SortOrderEnum.Ascending)
+{
+    <a href="/persons/search?searchBy=@(ViewBag.CurrentSearchBy)&searchString=@(ViewBag.CurrentSearchString)&sortOrder=@(SortOrderEnum.Descending)&sortBy=@(ViewBag.ColumnName)">
+        @(ViewBag.DisplayName)<i class="fa-solid fa-sort-down"></i>
+    </a>
+}
+else 
+{
+    <a href="/persons/search?searchBy=@(ViewBag.CurrentSearchBy)&searchString=@(ViewBag.CurrentSearchString)&sortOrder=@(ViewBag.CurrentSortOrder)&sortBy=@(ViewBag.ColumnName)">
+        @(ViewBag.DisplayName)
+    </a>
+}

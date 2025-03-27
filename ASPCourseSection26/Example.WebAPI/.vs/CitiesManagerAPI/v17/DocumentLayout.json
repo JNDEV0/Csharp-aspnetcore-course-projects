@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|e:\\source\\repos\\aspcoursesection26\\example.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|e:\\source\\repos\\aspcoursesection26\\example.webapi\\controllers\\v1\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|solutionrelative:controllers\\v1\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|e:\\source\\repos\\aspcoursesection26\\example.webapi\\controllers\\v1\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|solutionrelative:controllers\\v1\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5082F4-96AF-4314-B8A3-8763BB8C3E81}|..\\Entities\\CitiesManager.Core.csproj|e:\\source\\repos\\aspcoursesection26\\entities\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|e:\\source\\repos\\aspcoursesection26\\example.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95D49C5-AD6D-4CC1-9C50-F35604A8CE7B}|CitiesManager.WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5082F4-96AF-4314-B8A3-8763BB8C3E81}|..\\Entities\\CitiesManager.Core.csproj|e:\\source\\repos\\aspcoursesection26\\entities\\servicecontracts\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5082F4-96AF-4314-B8A3-8763BB8C3E81}|..\\Entities\\CitiesManager.Core.csproj|e:\\source\\repos\\aspcoursesection26\\entities\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5082F4-96AF-4314-B8A3-8763BB8C3E81}|..\\Entities\\CitiesManager.Core.csproj|e:\\source\\repos\\aspcoursesection26\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E471F2-D559-456A-8FD9-DBE3FDDF7C66}|..\\ClientApp\\CitiesManager.ClientApp.csproj|e:\\source\\repos\\aspcoursesection26\\clientapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CitiesDb/True/SqlTable/dbo.AspNetUserLogins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CitiesDb/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 278,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Entities\\DTOs\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\DTOs\\AuthResponse.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Entities\\DTOs\\AuthResponse.cs",
+              "RelativeToolTip": "..\\Entities\\DTOs\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:34:03.854Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Entities\\ServiceContracts\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\ServiceContracts\\IJwtService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Entities\\ServiceContracts\\IJwtService.cs",
+              "RelativeToolTip": "..\\Entities\\ServiceContracts\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:08:56.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Entities\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Identity\\AppUser.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Entities\\Identity\\AppUser.cs",
+              "RelativeToolTip": "..\\Entities\\Identity\\AppUser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAABQwBQAAAAtAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:06:48.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.AspNetUserLogins.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CitiesDb/True/SqlTable/dbo.AspNetUserLogins.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CitiesDb/True/SqlTable/dbo.AspNetUserLogins.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-04T01:51:24.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CitiesDb/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CitiesDb/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-03T20:59:16.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\Controllers\\v1\\CitiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\v1\\CitiesController.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\Controllers\\v1\\CitiesController.cs",
+              "RelativeToolTip": "Controllers\\v1\\CitiesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T09:14:57.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\ClientApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ClientApp\\Program.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\ClientApp\\Program.cs",
+              "RelativeToolTip": "..\\ClientApp\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwFcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:54:34.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\Controllers\\v1\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\v1\\AccountController.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\Controllers\\v1\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\v1\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:45:26.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAABkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:07:41.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Example.WebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T23:02:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection26\\Entities\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Services\\JwtService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection26\\Entities\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\Entities\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T22:02:04.898Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

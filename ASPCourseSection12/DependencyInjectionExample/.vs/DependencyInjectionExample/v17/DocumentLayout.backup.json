@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{550B816B-56BE-4320-B56A-DB84DD48E94F}|..\\Services\\xServices.csproj|e:\\source\\repos\\aspcoursesection12\\services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{550B816B-56BE-4320-B56A-DB84DD48E94F}|..\\Services\\xServices.csproj|e:\\source\\repos\\aspcoursesection12\\services\\xservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075B683-BFBE-42B1-8687-0779CB8ABE5E}|..\\xServiceContracts\\xServiceContracts.csproj|e:\\source\\repos\\aspcoursesection12\\xservicecontracts\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|e:\\source\\repos\\aspcoursesection12\\dependencyinjectionexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DDF199B-85DC-4E71-B2B4-BECEF4E2D800}|DependencyInjectionExample.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "xServices.csproj",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\Services\\xServices.csproj",
+              "RelativeDocumentMoniker": "..\\Services\\xServices.csproj",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\Services\\xServices.csproj",
+              "RelativeToolTip": "..\\Services\\xServices.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T02:40:49.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICitiesService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\xServiceContracts\\ICitiesService.cs",
+              "RelativeDocumentMoniker": "..\\xServiceContracts\\ICitiesService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\xServiceContracts\\ICitiesService.cs",
+              "RelativeToolTip": "..\\xServiceContracts\\ICitiesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:40:42.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T21:19:45.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T20:58:39.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\wwwroot\\StyleSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\StyleSheet.css",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\wwwroot\\StyleSheet.css",
+              "RelativeToolTip": "wwwroot\\StyleSheet.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-28T20:55:15.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T20:30:56.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowCcAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T20:26:08.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAAAKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:25:35.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitiesService.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\Services\\CitiesService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\CitiesService.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\Services\\CitiesService.cs",
+              "RelativeToolTip": "..\\Services\\CitiesService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAABQwCQAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:56:22.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\source\\repos\\ASPCourseSection12\\DependencyInjectionExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:26:19.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

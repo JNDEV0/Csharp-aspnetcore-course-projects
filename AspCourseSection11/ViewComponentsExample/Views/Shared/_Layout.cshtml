@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand">View Components demo</div>
+                <ul>
+                    <li><a href="~/">Home</a></li> @*adding the ~/ enables runtime determination depending on assigned port number, may be irelevant? :)*@
+                    <li><a href="~/About">About</a></li>
+                </ul>
+            </div>
+            <div class="page-content">
+                @RenderBody()
+            </div>
+        </div>
+    </body>
+</html>

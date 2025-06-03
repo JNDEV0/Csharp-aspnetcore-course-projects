@@ -26,7 +26,7 @@ internal class Program
             WebApplication webApp = builder.Build();
             
             //here a route is is defined in the webapp, to send the response return on / url path GET request
-            //webApp.MapGet("/1337", () => "this is some hannkypanky shit mothafuka we got a server going hellzz yeaa 1337 breh");
+            //webApp.MapGet("/1337", () => "msg");
 
             //Run will execute some logic code on the incoming request.
             //the supplied parameter is the HTTP request context information, that contains
